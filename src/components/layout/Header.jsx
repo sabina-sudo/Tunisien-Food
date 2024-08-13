@@ -23,7 +23,7 @@ export default function Header() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 ,textAlign:'center'}}>
-            Tunisian Food
+            Tunisian Foods
           </Typography>
           <Link to={'/'}>Home</Link>
           <Link to={'/contact'}>Contact</Link>
