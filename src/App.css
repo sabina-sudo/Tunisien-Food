@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+footer{
+  background-color:#f1592a;
+  text-align: center;
+  color: white;
+  padding-block: 1rem;
+  padding-inline:30rem;
+}
+
+button.addButton{
+  background-color: #f1592a;
+  color: white;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+
+}
+
+button.addButton:hover{
+  background-color: #f1592a;
+}
+
+.addButton span:nth-child(2){
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+main{
+  margin-block: 2rem;
+  width: 80%;
+  margin-inline:  auto;
+}
+
+.buttonContainer{
+  display: flex;
+  justify-content: end;
+}
